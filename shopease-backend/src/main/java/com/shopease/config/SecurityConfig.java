@@ -36,6 +36,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.addAllowedOrigin("http://localhost:5173");
         config.addAllowedOrigin("http://localhost:5174");
+        config.addAllowedOrigin("https://shopease-frontend-swart.vercel.app");
+        config.addAllowedOrigin("https://shopease-frontend-pmdf09167-srinehas-projects.vercel.app");
         config.addAllowedMethod("*");
         config.addAllowedHeader("*");
         config.setAllowCredentials(false);
